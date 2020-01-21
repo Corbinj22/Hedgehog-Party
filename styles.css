@@ -1,0 +1,17 @@
+/* Color Theme Swatches in Hex */
+.Fresh-Artwork-for-Sarabecca-1-hex { color: #F29BBB; }
+.Fresh-Artwork-for-Sarabecca-2-hex { color: #F280BF; }
+.Fresh-Artwork-for-Sarabecca-3-hex { color: #85E7F2; }
+.Fresh-Artwork-for-Sarabecca-4-hex { color: #A2F2C5; }
+.Fresh-Artwork-for-Sarabecca-5-hex { color: #F2E85C; }
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Rammetto One', cursive;
+  font-family: 'Comfortaa', cursive;
+  }
+
+.party-in-title{
+  font-family: 'Comfortaa', cursive;
+}
