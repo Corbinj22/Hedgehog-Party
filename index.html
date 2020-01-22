@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- <script src=""></script> -->
   <link rel="stylesheet" href="styles.css">
-  <title>Hedgehog <span class="party-in-title">Party</span></title>
+  <title>Hedgehog Party</title>
   <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700|Rammetto+One&display=swap" rel="stylesheet">
-
 </head>
   <body>
     <main>
       <header>
-        <h1>Headgehog Party</h1>
+        <h1>Hedgehog <span class="party-in-title">Party</span></h1>
       </header>
-      <section class="top-box">
-        <h3>title goes here</h3>
-        <table>
-          <tr>
-            <th>Name</th>
-            <th># of Hoglets</th>
-            <th>Allergies</th>
-            <th>Blank</th>
-          </tr>
-          <tr>
-            <td>Justin</td>
-            <td>79</td>
-            <td>Ceclor</td>
-            <td><button type="button" name="button"></button></td>
-          </tr>
-        </table>
-      </section>
-      <section class="bottom-box">
-        <div class="left-bottom-box">
-          <input type="text" name="name of headgehog" placeholder="Name of Headgehog" value="">
-          <input type="text" name="number of hoglets" placeholder="Number of Hoglets" value="">
-          <input type="text" name="allergies" placeholder="Allergies" value="">
+        <section class="top-box">
+          <h3 id="list-title">Invitation List</h3>
+          <table id= "guest-table" border=1 frame=below rules=rows>
+            <tr>
+              <th>Name</th>
+              <th># of Hoglets</th>
+              <th>Allergies</th>
+            </tr>
+            <tr>
+              <td>Justin</td>
+              <td>79</td>
+              <td>Ceclor</td>
+              <td><button class="univite-btn" type="button" name="button">UNINVITE</button></td>
+            </tr>
+          </table>
+        </section>
+        <section class="bottom-box">
+          <h3>Invite another Hedgehog</h3>
+          <div class="bottom-container-flex">
+            <div class="left-bottom-box">
+              <input class="headgehog-details" type="text" name="name of headgehog" placeholder="Name of Headgehog" value="">
+              <input class="headgehog-details" type="text" name="number of hoglets" placeholder="Number of Hoglets" value="">
+              <input class="headgehog-details" type="text" name="allergies" placeholder="Allergies" value="">
+              <button id="invite-btn" disabled=true type="button" name="invite">Invite!</button>
+            </div>
+            <div class="right-bottom-box">
+              <img id= "party-hog" src="https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/fc/3032869-poster-p-1-crash-a-tiny-hedgehogs-birthday-party.jpg" alt="">
+            </div>
         </div>
-        <div class="right-bottom-box">
-          <img src="" alt="">
-        </div>
-      </section>
+        </section>
     </main>
     <footer class="gutter-bottom">
     </footer>
